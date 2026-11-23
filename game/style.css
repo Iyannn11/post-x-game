@@ -1,0 +1,19 @@
+/* NEON DODGE — standalone page styles. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #070313;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  touch-action: none;
+}
